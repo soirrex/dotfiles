@@ -48,7 +48,7 @@ python3 install.py mocha blue
 
 ### Ranger:
 
-- **ctrl+c**: show hidden files
+- **ctrl+h**: show hidden files
 - **dd**: delete
 - **r**: rename
 - **a**: create file

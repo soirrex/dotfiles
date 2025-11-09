@@ -32,9 +32,9 @@ python3 install.py mocha blue
 - **SUPER + e**: open file manager
 - **SUPER + w**: toggle floating mode
 - **SUPER + v**: open menu
-- **SUPER \* u**: toggle split
+- **SUPER + u**: toggle split
 - **SUPER + f**: full screen
-- **SUPER \* SHIFT + q**: exit hyprland
+- **SUPER + SHIFT + q**: exit hyprland
 - **SUPER + (left,right,up,down)**: move focus (left,right,up,down)
 - **SUPER + (h,j,k,l)**: move focus (left,right,up,down)
 - **SUPER + (1..0)**: switch workspaces (1..10)
@@ -43,6 +43,7 @@ python3 install.py mocha blue
 - **SUPER + mouse_up**: scroll through existing workspaces
 - **SUPER + s**: hyprlock
 - **SUPER + SHIFT + s**: create screenshot
+- **SUPER + SHIFT + j**: open btop
 - **SUPER + mouse_left**: move window
 - **SUPER + mouse_right**: resize window
 

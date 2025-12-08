@@ -2,8 +2,12 @@
 
 **dependencies**: `hyprland btop nvim hypridle hyprlock hyprpaper ranger waybar wofi kitty hyprpolkitagent sxiv pavucontrol nwg-look grim slurp`
 
-## GTK theme
-
+## Themes: 
+#### ranger icons:
+```
+git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
+```
+#### GTK theme
 ```bash
 curl -LsSO "https://raw.githubusercontent.com/catppuccin/gtk/v1.0.3/install.py"
 python3 install.py mocha blue

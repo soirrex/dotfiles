@@ -32,6 +32,6 @@ return {
     vim.keymap.set('n', '<leader>gr', builtin.lsp_references, { noremap = true, silent = true })
 
     -- Map `gd` to go to the definition of a symbol using LSP
-    vim.keymap.set('n', '<leader>agd', builtin.lsp_definitions, { noremap = true, silent = true })
+    vim.keymap.set('n', '<leader>gd', builtin.lsp_definitions, { noremap = true, silent = true })
   end
 }

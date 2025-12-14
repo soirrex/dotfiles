@@ -11,6 +11,6 @@ return {
     { "<leader>rr", "<cmd>Rest run<CR>",      desc = "Run HTTP request" },
     { "<leader>rl", "<cmd>Rest run last<CR>", desc = "Run last request" },
     { "<leader>ro", "<cmd>Rest open<CR>",     desc = "Open result window" },
-    { "<leader>rc", "<cmd>Rest open<CR>",     desc = "Open cookies" },
+    { "<leader>rc", "<cmd>Rest cookies<CR>",   desc = "Open cookies" },
   },
 }

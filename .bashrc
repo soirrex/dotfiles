@@ -23,6 +23,12 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+fi
+
 # vi mode
 set -o vi
 bind 'set show-mode-in-prompt on'

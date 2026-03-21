@@ -1,6 +1,6 @@
 # Dotfiles
 
-**dependencies**: `stow hyprland nvim hypridle hyprlock swaybg ranger waybar wofi kitty hyprpolkitagent sxiv pavucontrol nwg-look grim slurp`
+**dependencies**: `stow hyprland nvim hypridle hyprlock swaybg ranger waybar wofi kitty hyprpolkitagent sxiv pavucontrol nwg-look grim slurp bash-completion`
 
 ## Themes:
 

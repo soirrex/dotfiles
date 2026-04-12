@@ -1,6 +1,11 @@
 # Dotfiles
 
-**dependencies**: `stow hyprland nvim hypridle hyprlock hyprsunset swaybg ranger waybar wofi kitty hyprpolkitagent sxiv pavucontrol nwg-look grim slurp bash-completion`
+Hyprland and Neovim dotfiles
+
+## Screenshots
+
+![screenshot](./assets/screenshot_1.png)
+![screenshot](./assets/screenshot_2.png)
 
 ## Themes:
 
@@ -18,6 +23,8 @@ python3 install.py mocha blue
 ```
 
 ## Install:
+
+**dependencies**: `stow hyprland nvim hypridle hyprlock hyprsunset swaybg ranger waybar wofi kitty hyprpolkitagent sxiv pavucontrol nwg-look grim slurp bash-completion`
 
 ### Copy the repository to your home directory
 

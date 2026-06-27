@@ -38,7 +38,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export PS1='\[\e[38;2;137;180;250m\]\u@\h:\[\e[0m\]\w\$ '
+export PS1='\[\e[38;5;254m\]\u@\h:\[\e[0m\]\w\$ '
 export XDG_CURRENT_DESKTOP=Hyprland
 
 export EDITOR=nvim

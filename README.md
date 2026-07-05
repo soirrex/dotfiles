@@ -44,6 +44,17 @@ stow .
 | Launcher       | [wofi](https://hg.sr.ht/~scoopta/wofi)      |
 | Status bar     | [waybar](https://github.com/Alexays/Waybar) |
 
+## Wallpapers:
+
+To change the wallpaper, select the image you want from the `.config/hypr/wallpapers/` folder and rename it to `wallpaper.jpg`
+
+<table>
+  <tr>
+    <td><img src="./.config/hypr/wallpapers/wallpaper.jpg" width="200"></td>
+    <td><img src="./.config/hypr/wallpapers/wallpaper-rei.jpg" width="200"></td>
+  </tr>
+</table>
+
 ## Hotkeys
 
 ### Hyprland:
@@ -81,4 +92,4 @@ stow .
 - **m**: move
 - **cc**: copy
 - **cf**: copy full path
-- **cm**: copy name
+- **cn**: copy name

@@ -99,6 +99,7 @@ hl.config({
   misc = {
     force_default_wallpaper = 0,
     disable_hyprland_logo = true,
+    on_focus_under_fullscreen = 0,
   },
 })
 
@@ -333,3 +334,8 @@ hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true })
+
+hl.window_rule({
+  match = { class = ".*" },
+  suppress_event = "fullscreen maximize",
+})
